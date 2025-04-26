@@ -1,0 +1,32 @@
+.section-title h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .section-title h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .section-title h3 span {
+    color: #ff6600; /* orange */
+  }
+  
+  .about .btn {
+    background-color: #ff6600;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+  
+  .about .btn:hover {
+    background-color: #e65c00;
+  }
+  
