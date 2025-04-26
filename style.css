@@ -15,11 +15,11 @@
   }
   
   .section-title h3 span {
-    color: #ff6600; /* orange */
+    color: #ff6600;
   }
   
   .about .btn {
-    background-color: #ff6600;
+    background-color:orangered;
     border: none;
     color: #fff;
     padding: 10px 25px;
@@ -29,4 +29,26 @@
   .about .btn:hover {
     background-color: #e65c00;
   }
-  
+  /* nav-tab */
+  .d-block:hover{
+    border:  1px solid#e65c00;
+  }
+  .bi{
+    font-size:35px;
+  }
+  .bi:hover{
+    color: #e65c00;}
+
+    .light-orange{
+        background-color: gainsboro;
+    }
+    .light-orange:focus, .light-orange:active, .light-orange:hover {
+        background-color:#e65c00;
+    }
+    .about-3 .btn {
+        background-color:orangered;
+        border: none;
+        color: #fff;
+        padding: 10px 25px;
+        border-radius: 20px;
+      }
