@@ -6,25 +6,25 @@
    z-index: 1000; 
 }
 .navbar-nav a:hover{
-    background-color: rgb(250, 135, 3);
-    padding: 10px;
+    background-color: #ef6603;
+    padding: 5px;
     border-radius: 20px;
 }
-.carousel{
-   
-
+.selecao{
+    font-size: 40px;
 }
+
 .carousel-inner img{
     height: 500px;
     background-image: linear-gradient(to bottom, #3a3b46, #2f303a);
     background: linear-gradient(to bottom, #3a3b46, #2f303a);
 }
 .carousel-inner button:hover{
-    background-color:  rgb(250, 135, 3);
-    border: 2px solid  rgb(250, 135, 3);
+    background-color:  #ef6603;
+    border: 2px solid  #ef6603;
 }
 .carousel-inner button{
-    border: 2px solid  rgb(250, 135, 3);
+    border: 2px solid #ef6603;
     color: white;
 }
 .carousel-inner h5{
@@ -35,3 +35,4 @@
     font-size: 30px;
     color: white;
 }
+
