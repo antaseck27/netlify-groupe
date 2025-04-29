@@ -61,7 +61,7 @@
   }
   
   .about .btn {
-    background-color:orangered;
+    background-color:#ef6603;
     border: none;
     color: #fff;
     padding: 10px 25px;
@@ -69,26 +69,26 @@
   }
   
   .about .btn:hover {
-    background-color: #e65c00;
+    background-color: #ef6603;
   }
   /* nav-tab */
   .d-block:hover{
-    border:  1px solid#e65c00;
+    border:  1px solid #ef6603;
   }
   .bi{
     font-size:35px;
   }
   .bi:hover{
-    color: #e65c00;}
+    color: #ef6603;}
 
     .light-orange{
         background-color: gainsboro;
     }
     .light-orange:focus, .light-orange:active, .light-orange:hover {
-        background-color:#e65c00;
+        background-color: #ef6603;
     }
     .about-3 .btn {
-        background-color:orangered;
+        background-color: #ef6603;
         border: none;
         color: #fff;
         padding: 10px 25px;
@@ -98,14 +98,14 @@
       .hr{
         width: 100px;
         height: 2px;
-        background-color: #e65c00;
+        background-color: #ef6603;
         position: relative;
         top: 18px;
         left: 10px;
       }
       h5:hover{
         transform: scale(1.2);
-        color: #e65c00;
+        color: #ef6603;
         cursor: pointer;
       }
       #services .row .bi i{
