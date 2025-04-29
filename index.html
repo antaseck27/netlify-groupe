@@ -6,6 +6,171 @@
     <title>group-netlify</title>
      <!-- lien cdn bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-----------------------------Porfolio ------------------------------ -->
+    <div class="container  py-5">
+      <p class="opacité">Porfolio</p>
+      <div class="d-flex align-items-center">
+        <h1 class="h1">WE'VE DONE</h1>
+        <span></span>
+      </div>
+    </div>
+    <section class="section-tabs container py-4">
+      <ul class="nav nav-tabs justify-content-center flex-wrap" id="menuTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="All-tab" data-bs-toggle="tab" data-bs-target="#All" type="button" role="tab" aria-controls="All" aria-selected="true">All</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="App-tab" data-bs-toggle="tab" data-bs-target="#App" type="button" role="tab" aria-controls="App" aria-selected="false">App</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="Card-tab" data-bs-toggle="tab" data-bs-target="#Card" type="button" role="tab" aria-controls="Card" aria-selected="false">Lunch</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="Web-tab" data-bs-toggle="tab" data-bs-target="#Web" type="button" role="tab" aria-controls="Web" aria-selected="false">Dinner</button>
+        </li>
+      </ul>
+    </section>
+    
+    <!-- Tab Content -->
+    <div class="tab-content container py-3" id="menuTabsContent">
+    
+      <!-- All Content -->
+      <div class="tab-pane fade show active" id="All" role="tabpanel" aria-labelledby="All-tab">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 mb-4">
+            <img src="./img/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+            <img src="./img/masonry-portfolio-6.jpg" class="img-fluid mt-3" alt="">
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4">
+            <img src="./img/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+            <img src="./img/masonry-portfolio-5.jpg" class="img-fluid mt-3" alt="">
+            <img src="./img/masonry-portfolio-9.jpg" class="img-fluid mt-3" alt="">
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4">
+            <img src="./img/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+            <img src="./img/masonry-portfolio-4.jpg" class="img-fluid mt-3" alt="">
+            <img src="./img/masonry-portfolio-7.jpg" class="img-fluid mt-3" alt="">
+            <img src="./img/masonry-portfolio-8.jpg" class="img-fluid mt-3" alt="">
+          </div>
+        </div>
+      </div>
+    
+      <!-- App Content -->
+      <div class="tab-pane fade" id="App" role="tabpanel" aria-labelledby="App-tab">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 mb-4">
+            <img src="./img/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4">
+            <img src="./img/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4">
+            <img src="./img/masonry-portfolio-7.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    
+      <!-- Card Content -->
+      <div class="tab-pane fade" id="Card" role="tabpanel" aria-labelledby="Card-tab">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 mb-4">
+            <img src="./img/masonry-portfolio-2.jpg" class="img-fluid mb-2" alt="">
+            
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4">
+            <img src="./img/masonry-portfolio-5.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4">
+            <img src="./img/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    
+      <!-- Dinner Content -->
+      <div class="tab-pane fade" id="Web" role="tabpanel" aria-labelledby="Web-tab">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 mb-4">
+            <img src="./img/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4">
+            <img src="./img/masonry-portfolio-6.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4">
+            <img src="./img/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <!-- App Content -->
+      <div  class="tab-pane fade" id="App" role="tabpanel">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="./img/masonry-portfolio-1.jpg" class="img-fluid " alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="./img/masonry-portfolio-4.jpg" class="img-fluid " alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="./img/masonry-portfolio-7.jpg" class="img-fluid " alt="">
+            </div>
+            
+          </div>
+        </div>
+      </div >
+    
+      <!-- Card Content -->
+      <div class="tab-pane fade" id="Card" role="tabpanel">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="./img/masonry-portfolio-2.jpg" class="img-fluid mb-4" alt="">
+              <div class="parent">
+                <div class=" d-flex justify-content-between align-items-center bg-light">
+                  <div class="enfant">
+                    <div  class="app">
+                      <h5>App app 2</h5>
+                      <P>llorem Lorem ipsum dolor sit.</P>
+                    </div>
+                    <div class="icone">
+                      <i>!$¤¤¤</i>
+                      <i>!$¤¤¤</i>
+                    </div>
+                  </div>
+              </div>
+              </div>
+             
+            </div>
+            <div class="col-md-4">
+              <img src="./img/masonry-portfolio-5.jpg" class="img-fluid mb-4" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="./img/masonry-portfolio-8.jpg" class="img-fluid mb-4" alt="">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    
+      <!-- Dinner Content -->
+      <div class="tab-pane fade" id="Web" role="tabpanel">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="./img/masonry-portfolio-3.jpg" class="img-fluid mb-4" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="./img/masonry-portfolio-6.jpg" class="img-fluid mb-4" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="./img/masonry-portfolio-9.jpg" class="img-fluid mb-4" alt="">
+
     <!-- LIEN ICONE bootrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -530,10 +695,102 @@
             <div class="card-body">
               <h5 class="card-title">Ledo Markt</h5>
               <p class="card-text">Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <!-- ------------------------------- --------------------------------------------->
+    
+    <!----------------------------- testimonials----------------------------------- -->
+    <div class="container  py-5">
+      <p class="opacité">Testimonials</p>
+      <div class="d-flex align-items-center">
+        <h1 class="h1">What they are saying about us</h1>
+        <span></span>
+      </div>
+    </div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <!-- -----------------------------------carousel ----------------------------->
+      <div class="container py-5">
+        <div id="carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+      
+            <!-- Slide 1 -->
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="row g-4">
+                <div class="col-4">
+                  <div class="bg-light shadow rounded p-3 h-100">
+                    <img src="./img/testimonials-1.jpg" class="card-img-top w-25 rounded-circle mb-3" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Saul Goodman</h5>
+                      <h6 class="métier">CEO & Founder</h6>
+                      <p class="card-text">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </p>
+                      <p class="card-text text-justify">
+                        <i class="fa-solid fa-quote-left"></i>
+                        Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.
+                        <i class="fa-solid fa-quote-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Carte 2 -->
+                <div class="col-4">
+                  <div class="bg-light shadow rounded p-3 h-100">
+                    <img src="./img/testimonials-2.jpg" class="card-img-top w-25 rounded-circle mb-3" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sara Wilsson</h5>
+                      <h6 class="métier">Designer</h6>
+                      <p class="card-text">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </p>
+                      <p class="card-text text-justify">
+                        <i class="fa-solid fa-quote-left"></i>
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                        <i class="fa-solid fa-quote-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Carte 3 -->
+                <div class="col-4">
+                  <div class="bg-light shadow rounded p-3 h-100">
+                    <img src="./img/testimonials-3.jpg" class="card-img-top w-25 rounded-circle mb-3" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Jena Karlis</h5>
+                      <h6 class="métier">Store Owner</h6>
+                      <p class="card-text">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </p>
+                      <p class="card-text text-justify">
+                        <i class="fa-solid fa-quote-left"></i>
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                        <i class="fa-solid fa-quote-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Ajoute d'autres slides ici avec la même structure -->
+      
 
     </div>
 
@@ -549,10 +806,79 @@
               <h5 class="card-title">Asperiores Commodit</h5>
               <p class="card-text">Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
             </div>
+
           </div>
         </div>
       </div>
       
+
+      <!-- ----------------------------------------PRICING----- ---------------------------->
+      <div class="container py-5">
+        <p class="text-muted text-uppercase">Pricing</p>
+        <div class="d-flex align-items-center mb-4">
+          <h1 class="h1 flex-grow-1">What they are saying about us</h1>
+          <span></span>
+        </div>
+      
+        <div class="row justify-content-center g-4">
+          <!-- Carte 1 -->
+          <div class="col-md-3">
+            <div class="card shadow h-100">
+              <div class="card-header bg-light text-center">Free</div>
+              <div class="card-body">
+                <h5 class="card-title text-center">$0 / month</h5>
+                <p class="card-text text-center">Aida dere<br>Nec feugiat nisi<br>Nulla at volutpat dolor</p>
+                <p class="card-text text-muted text-center">Pharetra massa<br>Massa ultrices mi</p>
+              </div>
+              <div class="card-footer bg-light text-center">
+                <button type="button" class="btn btn-orange">Buy now</button>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Carte 2 -->
+          <div class="col-md-3">
+            <div class="card shadow h-100">
+              <div class="card-header text-center p-2 business">Business</div>
+              <div class="card-body">
+                <h5 class="card-title text-center">$29 / month</h5>
+                <p class="card-text text-center">Aida dere<br>Nec feugiat nisi<br>Nulla at volutpat dolor</p>
+                <p class="card-text text-muted text-center">Pharetra massa<br>Massa ultrices mi</p>
+              </div>
+              <div class="card-footer bg-light text-center">
+                <button type="button" class="btn btn-orange">Buy now</button>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Carte 3 -->
+          <div class="col-md-3">
+            <div class="card shadow h-100">
+              <div class="card-header bg-light text-center p-2">Developer</div>
+              <div class="card-body">
+                <h5 class="card-title text-center">$49 / month</h5>
+                <p class="card-text text-center">Aida dere<br>Nec feugiat nisi<br>Nulla at volutpat dolor</p>
+                <p class="card-text text-muted text-center">Pharetra massa<br>Massa ultrices mi</p>
+              </div>
+              <div class="card-footer bg-light text-center">
+                <button type="button" class="btn btn-orange">Buy now</button>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Carte 4 -->
+          <div class="col-md-3">
+            <div class="card shadow h-100">
+              <div class="card-header bg-light text-center p-2">Ultimate</div>
+              <div class="card-body">
+                <h5 class="card-title text-center">$99 / month</h5>
+                <p class="card-text text-center">Aida dere<br>Nec feugiat nisi<br>Nulla at volutpat dolor</p>
+                <p class="card-text text-muted text-center">Pharetra massa<br>Massa ultrices mi</p>
+              </div>
+              <div class="card-footer bg-light text-center">
+                <button type="button" class="btn btn-orange">Buy now</button>
+              </div>
+
       <div class="card mb-2 shadow me-3" style="max-width: 450px;">
         <div class="row g-0">
           <div class="col-md-1"><br><br>
@@ -562,10 +888,79 @@
             <div class="card-body">
               <h5 class="card-title">Velit Doloremque</h5>
               <p class="card-text">Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+
             </div>
           </div>
         </div>
       </div>
+      
+  <!----------------------------------Frequently Asked Questions ---------------------------- -->
+
+  <div class="container py-5">
+    <p class="opacité text-uppercase text-muted">FAQ</p>
+  
+    <div class="d-flex align-items-center mb-4">
+      <h1 class="h1 mb-0">Frequently Asked Questions</h1>
+      <span></span>
+    </div>
+  
+    <div class="accordion accordion-flush bg-light" id="accordionFlushExample">
+      
+      <!-- Question 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed text-orange" type="button"
+            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+            aria-expanded="false" aria-controls="flush-collapseOne">
+            How to download and register?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse"
+          aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of
+            the Semantics, a large language ocean.
+          </div>
+        </div>
+      </div>
+  
+      <!-- Question 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button"
+            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+            aria-expanded="false" aria-controls="flush-collapseTwo">
+            How to create your PayPal account?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+          aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Visit paypal.com and click on "Sign Up". Choose between a personal or business account, then follow the steps to verify your email and link your bank account.
+          </div>
+        </div>
+      </div>
+  
+      <!-- Question 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button"
+            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+            aria-expanded="false" aria-controls="flush-collapseThree">
+            How to link your PayPal and bank account?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse"
+          aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Log in to your PayPal account, go to Wallet, and click “Link a bank”. Follow the prompts to enter your bank details and confirm the link.
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
 
       <div class="card mb-2 shadow" style="max-width: 400px;">
         <div class="row g-0">
@@ -582,6 +977,7 @@
       </div>
     </div>
   </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
