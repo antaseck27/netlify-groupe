@@ -1,5 +1,6 @@
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 *{
@@ -82,3 +83,186 @@
     display:inline-block;
   }
   
+
+/*-----------------------------------------------nav--------------------------------------------------------------------------------*/
+
+
+.section-title h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .section-title h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .section-title h3 span {
+    color: #ff6600;
+  }
+  
+  .about .btn {
+    background-color:orangered;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+  
+  .about .btn:hover {
+    background-color: #e65c00;
+  }
+  /* nav-tab */
+  .d-block:hover{
+    border:  1px solid#e65c00;
+  }
+  .bi{
+    font-size:35px;
+  }
+  .bi:hover{
+    color: #e65c00;}
+
+    .light-orange{
+        background-color: gainsboro;
+    }
+    .light-orange:focus, .light-orange:active, .light-orange:hover {
+        background-color:#e65c00;
+    }
+    .about-3 .btn {
+        background-color:orangered;
+        border: none;
+        color: #fff;
+        padding: 10px 25px;
+        border-radius: 20px;
+      }
+
+.navbar{
+   background-color: rgb(131, 131, 142);
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1000; 
+}
+.navbar-nav a:hover{
+    background-color: #ef6603;
+    padding: 5px;
+    border-radius: 20px;
+}
+.selecao{
+    font-size: 40px;
+}
+
+.carousel-inner img{
+    height: 500px;
+    background-image: linear-gradient(to bottom, #3a3b46, #2f303a);
+    background: linear-gradient(to bottom, #3a3b46, #2f303a);
+}
+.carousel-inner button:hover{
+    background-color:  #ef6603;
+    border: 2px solid  #ef6603;
+}
+.carousel-inner button{
+    border: 2px solid #ef6603;
+    color: white;
+}
+.carousel-inner h5{
+    font-size: 70px;
+    color: white;
+}
+.carousel-inner p{
+    font-size: 30px;
+    color: white;
+}
+
+
+/*---------------------------------------------------------------------fin home--------------------------------------------- */
+
+
+.section-title h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .section-title h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .section-title h3 span {
+    color: #ff6600;
+  }
+  
+  .about .btn {
+    background-color:#ef6603;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+  
+  .about .btn:hover {
+    background-color: #ef6603;
+  }
+  /* nav-tab */
+  .d-block:hover{
+    border:  1px solid #ef6603;
+  }
+  .bi{
+    font-size:35px;
+  }
+  .bi:hover{
+    color: #ef6603;}
+
+    .light-orange{
+        background-color: gainsboro;
+    }
+    .light-orange:focus, .light-orange:active, .light-orange:hover {
+        background-color: #ef6603;
+    }
+    .about-3 .btn {
+        background-color: #ef6603;
+        border: none;
+        color: #fff;
+        padding: 10px 25px;
+        border-radius: 20px;
+      }
+      /*-----------------------------------section-servive------------------------------------------------------- */
+      .hr{
+        width: 100px;
+        height: 2px;
+        background-color: #ef6603;
+        position: relative;
+        top: 18px;
+        left: 10px;
+      }
+      h5:hover{
+        transform: scale(1.2);
+        color: #ef6603;
+        cursor: pointer;
+      }
+      #services .row .bi i{
+        position: relative;
+        bottom: 10px;
+      }
+      .container .card:hover{
+        transform: translateY(-10px)
+
+      }
+      #services .container .row .bi i{
+        font-size: 100px;
+
+      }
+
+
