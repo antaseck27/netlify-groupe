@@ -1,4 +1,7 @@
 
+/*-----------------------------------------------nav--------------------------------------------------------------------------------*/
+
+
 .section-title h2 {
     font-size: 14px;
     letter-spacing: 1px;
@@ -92,4 +95,88 @@
     color: white;
 }
 
+
+/*---------------------------------------------------------------------fin home--------------------------------------------- */
+
+
+.section-title h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .section-title h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .section-title h3 span {
+    color: #ff6600;
+  }
+  
+  .about .btn {
+    background-color:#ef6603;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+  
+  .about .btn:hover {
+    background-color: #ef6603;
+  }
+  /* nav-tab */
+  .d-block:hover{
+    border:  1px solid #ef6603;
+  }
+  .bi{
+    font-size:35px;
+  }
+  .bi:hover{
+    color: #ef6603;}
+
+    .light-orange{
+        background-color: gainsboro;
+    }
+    .light-orange:focus, .light-orange:active, .light-orange:hover {
+        background-color: #ef6603;
+    }
+    .about-3 .btn {
+        background-color: #ef6603;
+        border: none;
+        color: #fff;
+        padding: 10px 25px;
+        border-radius: 20px;
+      }
+      /*-----------------------------------section-servive------------------------------------------------------- */
+      .hr{
+        width: 100px;
+        height: 2px;
+        background-color: #ef6603;
+        position: relative;
+        top: 18px;
+        left: 10px;
+      }
+      h5:hover{
+        transform: scale(1.2);
+        color: #ef6603;
+        cursor: pointer;
+      }
+      #services .row .bi i{
+        position: relative;
+        bottom: 10px;
+      }
+      .container .card:hover{
+        transform: translateY(-10px)
+
+      }
+      #services .container .row .bi i{
+        font-size: 100px;
+
+      }
 
