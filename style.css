@@ -261,7 +261,7 @@
         transform: translateY(-10px)
 
       }
-      #services .container .row .bi i{
+      #services .container .row  i{
         font-size: 100px;
 
       }
@@ -271,5 +271,51 @@
         height: 100px;
         border-radius: 50%;
     }
+    .icones{
+        display: none;
+    }
+
+    .paraitre:hover .icones{
+       display: block;
+    }
+    .icone i {
+      font-size: 17px;
+    }
+    .icone{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      bottom: 50px;
+    }
+    .icone .icone1{
+      display: flex;
+      width: 35px;
+      height: 35px;
+      border-radius: 5px;
+      background-color: rgb(188, 182, 182);
+      color: rgb(42, 40, 40);
+      justify-content: center;
+      align-items: center;
+    }
+   .icone .icone1:hover{
+    background-color: #e65c00;
+    color: white;
+   }
+
+   /* -------------------------------------------------------------------------------form---------------------------------------------------------------------------------------- */
+
+   .bordever .bor h5{
+      
+    font-size: 25px;
+    font-weight: 800;
+   }
+   .bordever{
+    position: relative;
+    bottom: 45px;
+   }
+
+    
 
 
