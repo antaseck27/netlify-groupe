@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: roboto ;
+    margin-top: 0;
 }
 
 
@@ -264,5 +265,11 @@
         font-size: 100px;
 
       }
+      /* -----------------------------------------------------------------team------------------------------------------------------------------------------ */
+      .gaud img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
 
 
