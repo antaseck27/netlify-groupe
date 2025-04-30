@@ -38,7 +38,7 @@
     
   }
   .fa-star{
-    color: yellow;
+    color: rgb(228, 166, 32);
   }
   .fa-quote-left, .fa-quote-right{
     color:#f7b281;
@@ -123,10 +123,10 @@
   .d-block:hover{
     border:  1px solid#e65c00;
   }
-  .bi{
+  .tab-content .bi{
     font-size:35px;
   }
-  .bi:hover{
+  .tab-content .bi:hover{
     color: #e65c00;}
 
     .light-orange{
@@ -248,11 +248,11 @@
         top: 18px;
         left: 10px;
       }
-      h5:hover{
+      /* .h5:hover{
         transform: scale(1.2);
         color: #ef6603;
         cursor: pointer;
-      }
+      } */
       #services .row .bi i{
         position: relative;
         bottom: 10px;
@@ -311,18 +311,35 @@
 
    /* -------------------------------------------------------------------------------form---------------------------------------------------------------------------------------- */
 
+   .select i{
+     width: 40px;
+    height: 40px; 
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #e65c00;
+   }
    .bordever .bor h5{
       
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 800;
    }
    .bordever{
+    display: flex;
+    flex-direction: column;
     position: relative;
-    bottom: 45px;
+    bottom: 20px;
+    padding: 10px;
    }
-   .contact .bor h5 .i(
-
-   )
-    
+    .actu{
+      color:#e65c00;
+      font-size: 15px;
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 40px;
+      background-color: #f7b281;
+      text-align: center;
+    }
+   
 
 
